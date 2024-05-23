@@ -1,0 +1,13 @@
+name: Complaints_Dashboard
+title: Complaints_Dashboard
+username:
+account: cara
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 9247283
+bundleId: 8653473
+url: https://cara.shinyapps.io/Complaints_Dashboard/
+when: 1716497847.32206
+lastSyncTime: 1716497847.32207
+asMultiple: FALSE
+asStatic: FALSE
