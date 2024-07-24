@@ -628,8 +628,8 @@ server <- function(input, output) {
            hoverinfo = 'text',
            text = ~paste("Month Received: ", sent_sum_issue()$MthYr, "<br />",
                          "Issue Category: ", sent_sum_issue()$Issue, "<br />",
-                         "Median Sentiment: ", sent_sum_bank()$MedianSent, "<br />",
-                         "Complaint Count: ", sent_sum_bank()$Obs, sep = "")) %>% 
+                         "Median Sentiment: ", sent_sum_issue()$MedianSent, "<br />",
+                         "Complaint Count: ", sent_sum_issue()$Obs, sep = "")) %>% 
      config(modeBarButtonsToRemove = c("lasso2d",
                                        "pan2d",
                                        "select2d",
